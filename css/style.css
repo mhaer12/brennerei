@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-  --primary: #88b44e;
+  --primary: #6b4329;
   --secondary: #fb9f38;
   --light: #f5f8f2;
   --dark: #252c30;
@@ -166,7 +166,7 @@
   bottom: 0;
   display: flex;
   align-items: center;
-  background: rgba(136, 180, 78, 0.7);
+  background: rgba(107, 63, 27, 0.7);
   z-index: 1;
 }
 
@@ -420,8 +420,8 @@
 /*** Testimonial ***/
 .testimonial {
   background: linear-gradient(
-      rgba(136, 180, 78, 0.85),
-      rgba(136, 180, 78, 0.85)
+    rgba(247, 194, 96, 0.85),
+      rgba(247, 194, 96, 0.85)
     ),
     url(../img/testimonial-bg.jpg) center center no-repeat;
   background-size: cover;
@@ -432,7 +432,7 @@
   max-width: 600px;
   text-align: center;
   background: #ffffff;
-  border: 30px solid var(--primary);
+  border: 5px solid var(--primary);
 }
 
 .testimonial-item img {
