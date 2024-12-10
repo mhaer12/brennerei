@@ -29,4 +29,10 @@ $link-decoration: none;
 
 $enable-negative-margins: true;
 
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+$theme-colors: (
+  primary: $purple
+);
+@import "bootstrap";
 @import "bootstrap/scss/bootstrap";
