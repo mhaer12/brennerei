@@ -2,7 +2,6 @@ import products from '/products.js';
 import cart from './cart.js';
 
 
-let listProduct = document.getElementById('listProduct');
 
 const initApp = () => {
     // load list product
@@ -16,8 +15,8 @@ const initApp = () => {
         `<a href="">
             <img src="${product.image}">
         </a>
-        <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
-            <h4 class="text-secondary">${product.name}</h4>
+        <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4"">
+            <h5 class="text-secondary">${product.name}</h5>     
             <span class="text-body">${product.description}<br>${product.price} €<br></span>
             <button class="addCart" data-id='${product.id}'>
                 Kaufen

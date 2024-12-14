@@ -48,6 +48,10 @@ const contact = () => {
         cartTextField.value = formatCart();
     })
 
+    const sendButton = document.getElementById('sendButton');
+    sendButton.addEventListener('submit', () => {
+        localStorage.removeItem('cart');
+    })
 
     // Get the checkbox and the div
     const checkbox = document.getElementById('checkCart');

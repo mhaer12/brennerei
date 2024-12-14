@@ -16,7 +16,7 @@ const products = [
     },
     {
         "id": 3,
-        "name":"Orangenlikör",
+        "name":"Orangen&shy;likör",
         "price": 15,
         "image": "img/product-3.jpg",
         "description": "Likör<br>25%vol"
@@ -37,14 +37,14 @@ const products = [
     },
     {
         "id": 6,
-        "name":"Pfefferminzlikör",
+        "name":"Pfeffer&shy;minz&shy;likör",
         "price": 15,
         "image": "img/product-6.jpg",
         "description": "Likör<br>25%vol"
     },
     {
         "id": 7,
-        "name":"Zitronenlikör",
+        "name":"Zitronen&shy;likör",
         "price": 15,
         "image": "img/product-7.jpg",
         "description": "Likör<br>25%vol"
@@ -58,14 +58,14 @@ const products = [
     },
     {
         "id": 9,
-        "name":"Apfel-Quitte",
+        "name":"Apfel-<wbr>Quitte",
         "price": 15,
         "image": "img/product-9.jpg",
         "description": "Edelbrand<br>41%vol"
     },
     {
         "id": 10,
-        "name":"Walnusslikör",
+        "name":"Walnuss&shy;likör",
         "price": 15,
         "image": "img/product-10.jpg",
         "description": "Likör<br>25%vol"
@@ -79,14 +79,14 @@ const products = [
     },
     {
         "id": 12,
-        "name":"Weintrester",
+        "name":"Wein&shy;trester",
         "price": 15,
         "image": "img/product-12.jpg",
         "description": "Edelbrand<br>41%vol"
     },
     {
         "id": 13,
-        "name":"Vogelbeere",
+        "name":"Vogel&shy;beere",
         "price": 15,
         "image": "img/product-13.jpg",
         "description": "Geist<br>41%vol"
@@ -107,7 +107,7 @@ const products = [
     },
     {
         "id": 16,
-        "name":"Holunderbeer",
+        "name":"Holunder&shy;beer",
         "price": 15,
         "image": "img/product-16.jpg",
         "description": "Geist<br>41%vol"
@@ -128,21 +128,21 @@ const products = [
     },
     {
         "id": 19,
-        "name":"Zitronenmelisse",
+        "name":"Zitronen&shy;melisse",
         "price": 15,
         "image": "img/product-20.jpg",
         "description": "Spirituose<br>25%vol"
     },
     {
         "id": 20,
-        "name":"Johannisbeer",
+        "name":"Johannis&shy;beer",
         "price": 15,
         "image": "img/product-21.jpg",
         "description": "Geist<br>41%vol"
     },
     {
         "id": 21,
-        "name":"Kaffeelikör",
+        "name":"Kaffee&shy;likör",
         "price": 15,
         "image": "img/product-23.jpg",
         "description": "Likör<br>25%vol"

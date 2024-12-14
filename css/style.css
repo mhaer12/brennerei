@@ -556,7 +556,8 @@ svg{
 }
 .cartTab button{
   border: none;
-  font-family: Arial;
+  font-size: large;
+  font-weight: bold;
   font-weight: 500;
   cursor: pointer;
 }
