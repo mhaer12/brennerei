@@ -1,6 +1,9 @@
 import products from '/products.js';
 import cart from './cart.js';
 
+
+let listProduct = document.getElementById('listProduct');
+
 const initApp = () => {
     // load list product
     let listProductHTML = document.querySelector('.listProduct');
