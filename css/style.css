@@ -516,6 +516,7 @@ svg{
 
 .icon-cart{
   position: relative;
+  padding-left: 10px;
 }
 .icon-cart span{
   position: absolute;
