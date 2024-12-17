@@ -16,9 +16,9 @@ const initApp = () => {
             <img src="${product.image}">
         </a>
         <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4"">
-            <h5 class="text-secondary">${product.name}</h5>     
+            <h5 class="text-secondary">${product.htmlname}</h5>     
             <span class="text-body">${product.description}<br>${product.price} €<br></span>
-            <button class="addCart" data-id='${product.id}'>
+            <button class="addCart" style="transition: width 0.5s ease; " data-id='${product.id}'>
                 Kaufen
             </button>
         </div>`;
