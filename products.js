@@ -26,7 +26,7 @@ const products = [
     },
     {
         "id": 4,
-        "nahtmlnameme":"Korn",
+        "htmlname":"Korn",
         "name":"Korn",
         "price": 15,
         "image": "img/product-4.jpg",
